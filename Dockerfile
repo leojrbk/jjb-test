@@ -9,7 +9,8 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposit
                        bash \
                        grep \
                        openssh \
-                       build-base
+                       build-base \
+                       python3-dev
 
 ENV VERSION 2.10.1
 ENV REPO_URL https://opendev.org/jjb/jenkins-job-builder.git
